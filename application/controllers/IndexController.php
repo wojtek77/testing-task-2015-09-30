@@ -10,8 +10,7 @@ class IndexController extends Zend_Controller_Action
 
     public function indexAction()
     {
-        $this->_helper->FlashMessenger->addMessage('jakis error');
-        v('hello world');
+        
     }
 }
 
